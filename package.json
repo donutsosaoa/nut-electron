@@ -2,12 +2,22 @@
   "name": "nut-electron-v1",
   "version": "1.0.0",
   "description": "This is my cool app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "g": "electron ."
   },
   "author": "Me",
   "license": "MIT",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donutsosaoa/nut-electron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/donutsosaoa/nut-electron/issues"
+  },
+  "homepage": "https://github.com/donutsosaoa/nut-electron#readme",
+  "devDependencies": {
+    "electron": "^22.1.0"
   }
 }
